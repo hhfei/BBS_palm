@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/et_addCom" 
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="200dp"
+        android:gravity="left"
+        android:hint="请输入评论"/>
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_addCom_sure"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_button_blue"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:text="确定"/>
+
+</LinearLayout>

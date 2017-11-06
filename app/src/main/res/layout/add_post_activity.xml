@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <EditText 
+        android:id="@+id/et_addPost_title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="请输入标题"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:id="@+id/et_addPost_content" 
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:gravity="left"
+        android:hint="请输入"/>
+    
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_addPost_sure"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_button_blue"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:text="确定"/>
+
+</LinearLayout>

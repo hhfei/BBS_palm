@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">掌上BBS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="copyright">Copyright © 2015-2016 ZHANGSHANGBBS </string>
+</resources>

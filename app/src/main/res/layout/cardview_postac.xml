@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#ffffff"
+    android:clickable="true"
+
+    android:layout_marginTop="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--app:cardCornerRadius="5dp"-->
+    <!--app:cardElevation="5dp"-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#9b9b9b"
+            android:textSize="15.0sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="huan"
+            android:id="@+id/cardview_tv_author"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="18.0sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:layout_marginLeft="3dp"
+            android:text="JVM面试什么问题"
+            android:id="@+id/cardview_tv_title"/>
+
+        <TextView
+            android:textColor="#9b9b9b"
+            android:textSize="15.0sp"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:lines="3"
+            android:text="毕业离开学校快两年了，许久没有上虎踞龙蟠，夜里爬上来看一看，冷清了不少，很多 当年熟悉的老id都不出现了，翻翻自己的在线时间排名居然还是老样子，唏嘘~ 毕业时的百感交集，两年来也慢慢沉淀下来，一切的一切，都过去了。 感谢恩师，感谢母校，在这里我"
+            android:id="@+id/cardview_tv_content"/>
+
+        <TextView
+            android:textColor="#9b9b9b"
+            android:textSize="15.0sp"
+            android:layout_width="match_parent"            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="2017-08-02 22:09"
+            android:layout_marginRight="3dp"
+            android:id="@+id/cardview_tv_date"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="用户名"
+            android:layout_weight="2"/>
+        <EditText android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_registerAc_name"
+            android:hint="请输入用户名"
+            android:layout_weight="4"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="密码"
+            android:layout_weight="2"/>
+        <EditText android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/et_registerAc_password"
+            android:hint="请输入密码"
+            android:layout_weight="4"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="学院"
+            android:layout_weight="2"/>
+        <EditText android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:id="@+id/et_registerAc_college"
+            android:hint="请输入你所在学院"
+            android:layout_weight="4"/>
+        
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/but_registerAC_zhuce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_button_blue"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:text="注册"/>
+
+</LinearLayout>
